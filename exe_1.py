@@ -1,8 +1,10 @@
 import numpy as np
 
 
-def create_vector()->np:
+def create_vector()->np.array:
     """
-    :return: A vector in range 0- 20 with negative and positive valeus.
+    :return: A vector in range 0- 20.
     """
-    return [index * -1 if index >= 9 and index <= 15 else index for index in np.arange(21)]
+    my_vector = np.arange(21)
+    my_vector[(my_vector >= 9) & (my_vector <= 15)] *= -1
+    return my_vector
