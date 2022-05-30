@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def make_matrix(size:int=4)->np:
+def make_matrix(size: int = 4) -> np.ndarray:
     """
 
     :param size: Size of matrix.
@@ -13,9 +13,3 @@ def make_matrix(size:int=4)->np:
     new_matrix[-1] = matrix[0]
     return new_matrix
 
-
-"""
-
-print(make_matrix())
-
-"""
