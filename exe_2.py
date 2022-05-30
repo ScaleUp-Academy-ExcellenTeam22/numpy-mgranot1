@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def evenly_distributed()->np:
+def evenly_distributed()->np.array:
     """
     :return: A vector of length 10 with values evenly distributed  between 5 and 50.
     """
