@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def combine_arrays(vector:int, array:np):
+def combine_arrays(vector:int, array: np.ndarray):
     """
     :param vector: Some vector.
     :param array: Some array.
