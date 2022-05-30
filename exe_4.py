@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def zero_and_one_matrix(size:int)->np:
+def zero_and_one_matrix(size:int)-> np.ndarray:
     """
 
     :param size: Matrix size.
