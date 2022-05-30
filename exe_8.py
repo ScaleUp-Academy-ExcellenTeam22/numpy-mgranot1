@@ -1,9 +1,9 @@
 import numpy as np
 
 
-def replace_values(array:np, num1:int, num2:int, operator:str)->np:
+def replace_values(array: np.array, num1: int, num2: int, operator: str) -> np.ndarray:
     """
-    :param array: Soma array.
+    :param array: Given array.
     :param num1: Numbers are exchanged according to it.
     :param num2: Exchanging certain numbers to it.
     :param operator: Replacement operator according to.
